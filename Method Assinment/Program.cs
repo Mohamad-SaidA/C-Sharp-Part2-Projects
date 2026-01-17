@@ -25,9 +25,9 @@ class Program
         MathOperations mathOps = new MathOperations();
 
         // Calling the method with two integer parameters
-        mathOps.PerformMathOperation(5, 10);  // Multiplying 5 by 2, then displaying 10
+        mathOps.PerformMathOperation(35, 40);  // Multiplying 5 by 2, then displaying 10
 
         // Calling the method using named parameters (for better readability)
-        mathOps.PerformMathOperation(firstNumber: 8, secondNumber: 20);  // Multiplying 8 by 2, then displaying 20
+        mathOps.PerformMathOperation(firstNumber: 18, secondNumber: 24);  // Multiplying 8 by 2, then displaying 20
     }
 }
